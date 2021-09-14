@@ -66,8 +66,8 @@
 (`NodeVolumeSize`)|`200`|Size of EBS volumes for master node instances, in gigabytes.|Number of secondary nodes
 (`NumofSecondaryNodes`)|`2`|Initial number of secondary node instances to create. If you do not have large enough instances to boot the number of secondary pods, the deployment will fail.|Kubernetes version
 (`KubernetesVersion`)|`1.18`|Kubernetes control plane version.|Per-account shared resources
-(`PerAccountSharedResources`)|`Yes`|Choose "No" if you already deployed another EKS Quick Start stack in your AWS account.|Per-Region shared resources
-(`PerRegionSharedResources`)|`Yes`|Choose "No" if you already deployed another EKS Quick Start stack in your Region.
+(`PerAccountSharedResources`)|`AutoDetect`|Choose "No" if you already deployed another EKS Quick Start stack in your AWS account.|Per-Region shared resources
+(`PerRegionSharedResources`)|`AutoDetect`|Choose "No" if you already deployed another EKS Quick Start stack in your Region.
 |===
 .AWS Quick Start configuration
 [width="100%",cols="16%,11%,73%",options="header",]
